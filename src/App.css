@@ -1,0 +1,33 @@
+.logo.vite:hover {
+  filter: drop-shadow(0 0 2em #747bff);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafb);
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+  gap: 1rem;
+}
+
+.bar-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: row;
+  background: #1c1c1c;
+  padding: 1rem;
+  height: 85px;
+}
+
+.bar {
+  width: 4px;
+  height: 80px;
+  margin: 0 2px;
+  border-radius: 2px;
+  background-color: #fff;
+}
